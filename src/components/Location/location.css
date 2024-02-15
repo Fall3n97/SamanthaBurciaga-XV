@@ -1,8 +1,14 @@
 .locationContainer{
     width: 100%;
     height: fit-content;
-    background-color: #e6b400;
+    background-color: #082c63;
 }
+
+/*  COLOR ROJO: #9F0101   
+    COLOR AZUL: #082c63
+    COLOR AMARILLO: #E5B80B
+*/
+
 
 .locationFlex{
     display: flex;
@@ -22,7 +28,7 @@
     text-align: center;
     letter-spacing: 2em;
     font-size: 2em;
-    color: #006CA5;
+    color: #9F0101;
 }
 
 .locationDetails{

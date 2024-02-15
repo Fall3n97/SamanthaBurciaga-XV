@@ -7,12 +7,12 @@ const itemsCeremonia = [
   {
     key: '1',
     label: 'Lugar',
-    children: <p>Catedral</p>,
+    children: <p>Iglesia de Los Angeles</p>,
   },
   {
     key: '2',
     label: 'Hora',
-    children: <p>6pm</p>,
+    children: <p>7pm</p>,
   },
   {
     key: '3',
@@ -25,7 +25,7 @@ const itemsFiesta = [
   {
     key: '1',
     label: 'Recepción (Puntual)',
-    children: <p>Salón Campestre</p>,
+    children: <p>Casa Club Campestre</p>,
   },
   {
     key: '2',
