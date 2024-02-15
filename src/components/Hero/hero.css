@@ -1,9 +1,20 @@
+.heroMask{
+    -webkit-mask-image: url('../../img/brush-mask.png');
+    mask-image: url('../../img/brush-mask.png');
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat; 
+    mask-size:cover;
+    mask-position: top;
+    background-color: #e6b400;
+}
+
 .Hero{
     width: 100%;
-    height: fit-content;
+    height: 95vmin;
     background-image: url('../../img/hero.jpeg');
     background-position: 0%;
     background-size: cover;
+    background-color: #e6b400;
 }
 
 .textContainer{
@@ -11,7 +22,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10vmin;
+    padding: 8vmin;
 }
 
 .textInvite{
@@ -21,13 +32,24 @@
 }
 
 .partyName{
-    font-size: 5rem;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.date{
+    margin-top: 0.8em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.1em;
+    letter-spacing: 0.4em;
 }
 
 .counter{
-    font-family: "Noto Serif", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
+    padding: 6px 6px;
+    line-height: 1.5;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid beige;
+    border-radius: 10px
 }

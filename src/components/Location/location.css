@@ -1,0 +1,32 @@
+.locationContainer{
+    width: 100%;
+    height: fit-content;
+    background-color: #e6b400;
+}
+
+.locationFlex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8vmin;
+}
+
+.title h2{
+    font-size: 2em;
+    margin-bottom: 5px;
+    text-shadow: none;
+}
+
+.title p{
+    text-align: center;
+    letter-spacing: 2em;
+    font-size: 2em;
+    color: #006CA5;
+}
+
+.locationDetails{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}

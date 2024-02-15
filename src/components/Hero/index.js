@@ -6,6 +6,7 @@ const deadline = new Date("Mar 2, 2024 18:00:00").getTime();
 
 function Hero() {
     return (
+    <div className='heroMask'>
       <div className='Hero'>
         <div className='textContainer'>
           <div className='textInvite'>
@@ -16,10 +17,8 @@ function Hero() {
           </div>
           <div className='counter'>
               <Col
-                span={24}
-                style={{
-                marginTop: 10}}>
-                     <Countdown value={deadline} format="DD  HH mm ss" />
+                span={24}>
+                     <Countdown value={deadline} format="DD [Días] | HH [Horas] | mm [Minutos] | ss [Segundos]" />
               </Col>
           </div>
           <div className='date'>
@@ -27,6 +26,7 @@ function Hero() {
           </div>
         </div>
       </div>
+    </div>
     );
   }
   
