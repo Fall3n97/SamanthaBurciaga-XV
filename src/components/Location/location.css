@@ -16,6 +16,9 @@
     align-items: center;
     justify-content: center;
     padding: 8vmin;
+    margin: 0 10vmin;
+    border: 1px solid beige;
+    border-radius: 5px;
 }
 
 .title h2{
@@ -35,4 +38,31 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+}
+
+.locationInfo{
+    padding: 30px 0;
+}
+
+.locationInfo h2{
+    font-size: 1.5em;
+    color: #E5B80B;
+    background-color: #9F0101;
+    border-radius: 8px;
+    line-height: 1.5;
+    margin-bottom: 0.5em;
+}
+
+.locationInfo h3{
+    font-size: 1.2em;
+    color: #E5B80B;
+    line-height: 1.5;
+}
+
+.locationInfo p{
+    font-size: 1em;
+    font-weight: 300;
+    color: beige;
+    line-height: 1.5;
+    margin-bottom: 10px;
 }

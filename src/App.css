@@ -1,15 +1,14 @@
 body{
-  font-family: "Noto Serif", serif;
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
-  font-variation-settings: "wdth" 100;
   color: #E5B80B;
   text-shadow: 2px 2px 2px rgba(0,0,0, 0.2);
   background-color: #082c63;
 }
 
-h1{
+h1, h2, h3{
   font-family: "Cinzel", serif;
   font-optical-sizing: auto;
   font-weight: 600;

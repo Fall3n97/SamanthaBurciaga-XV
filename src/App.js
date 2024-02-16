@@ -8,9 +8,9 @@ function App() {
     <ConfigProvider
   theme={{
     token: {
-      fontFamily:'Noto Serif, serif',
+      fontFamily: "Montserrat, sans-serif",
       fontSize: '1.1em',
-      colorText: '#f5f5dc',
+      colorText: '#ffe169',
       textShadow: '2px 2px 2px rgba(0,0,0, 0.2)'
     },
   }}>

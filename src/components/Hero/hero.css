@@ -8,13 +8,25 @@
     background-color: #e6b400;
 }
 
+.Hero::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 .Hero{
     width: 100%;
     height: 95vmin;
-    background-image: url('../../img/hero.jpeg');
+    background-image: url('../../img/hero.PNG');
     background-position: 0%;
     background-size: cover;
     background-color: #e6b400;
+    z-index: 3;
 }
 
 .textContainer{
@@ -29,12 +41,14 @@
     padding: 5vmin 0;
     text-transform: uppercase;
     letter-spacing: 0.3em;
+    z-index: 5;
 }
 
 .partyName{
     font-size: 4rem;
     text-align: center;
     margin-bottom: 1em;
+    z-index: 5;
 }
 
 .date{
@@ -43,6 +57,7 @@
     font-weight: 600;
     font-size: 1.1em;
     letter-spacing: 0.4em;
+    z-index: 5;
 }
 
 .counter{
@@ -50,6 +65,8 @@
     line-height: 1.5;
     align-items: center;
     justify-content: center;
-    border: 1px solid beige;
-    border-radius: 10px
+    border-top: 1px solid beige;
+    border-bottom: 1px solid beige;
+    z-index: 5;
+    /*border-radius: 10px */
 }

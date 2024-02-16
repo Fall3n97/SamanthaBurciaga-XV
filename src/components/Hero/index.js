@@ -10,7 +10,7 @@ function Hero() {
       <div className='Hero'>
         <div className='textContainer'>
           <div className='textInvite'>
-                <h2>¡Te Invito a Mi Fiesta!</h2>
+                <h4>Mis XV's</h4>
           </div>
           <div className='partyName'>
                 <h1>Samantha Burciaga</h1>
@@ -18,7 +18,7 @@ function Hero() {
           <div className='counter'>
               <Col
                 span={24}>
-                     <Countdown value={deadline} format="DD [Días] | HH [Horas] | mm [Minutos] | ss [Segundos]" />
+                     <Countdown value={deadline} format="DD [Días] | HH [Horas] | mm [Minutos] | ss [Segundos]" style={{fontWeight: 400, fontSize: '0.9em'}}/>
               </Col>
           </div>
           <div className='date'>

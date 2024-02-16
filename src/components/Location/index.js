@@ -1,5 +1,5 @@
 import React from 'react';
-import { Descriptions } from 'antd';
+import { Descriptions, Card, Col, Row } from 'antd';
 import { LineOutlined, PushpinFilled } from '@ant-design/icons';
 import './location.css'
 
@@ -48,8 +48,32 @@ function Location() {
             <p><LineOutlined/><PushpinFilled /><LineOutlined/></p>
           </div>
           <div className='locationDetails'>
-            <Descriptions title="Ceremonia" items={itemsCeremonia} layout='vertical'/>
-            <Descriptions title="Recepción" items={itemsFiesta} layout='vertical'/>
+          <Row style={{ borderBottom: '1px solid beige'}}>
+              <Col>
+                <div className='locationInfo'>
+                  <h2>Ceremonia</h2>
+                  <h3>Lugar</h3>
+                  <p>Iglesia de los Angeles</p>
+                  <h3>Hora</h3>
+                  <p>7pm</p>
+                  <h3>Dirección</h3>
+                  <p>Av. 20 de Noviembre s/n, Zona Centro, 34000 Durango, Dgo.</p>
+                </div>
+              </Col>
+          </Row>
+          <Row>
+              <Col>
+              <div className='locationInfo'>
+                  <h2>Recepción (Puntual)</h2>
+                  <h3>Lugar</h3>
+                  <p>Casa Club Campestre</p>
+                  <h3>Hora</h3>
+                  <p>9pm</p>
+                  <h3>Dirección</h3>
+                  <p>Av. 20 de Noviembre s/n, Zona Centro, 34000 Durango, Dgo.</p>
+                </div>
+              </Col>
+          </Row>
           </div>
           <div className='locationMap'>
           </div>
