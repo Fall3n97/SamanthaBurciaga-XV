@@ -1,6 +1,4 @@
 import './confirmation.css';
-import { FaCircleCheck } from "react-icons/fa6";
-import { TiDelete } from "react-icons/ti";
 
 function Confirmation() {
     return (

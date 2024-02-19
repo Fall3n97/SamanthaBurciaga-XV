@@ -1,9 +1,6 @@
 import React from 'react';
 import './dressing.css';
 import DressCode from '../../img/dress-code.png';
-import IconContext from '@ant-design/icons/lib/components/Context';
-import { FaBlackTie, FaUserTie } from "react-icons/fa6";
-import { GiAmpleDress } from "react-icons/gi";
 
 function Dress() {
     return (
