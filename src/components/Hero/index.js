@@ -2,7 +2,7 @@ import './hero.css';
 import React from 'react';
 import { Col, Statistic } from 'antd';
 const { Countdown } = Statistic;
-const deadline = new Date("Mar 2, 2024 18:00:00").getTime();
+const deadline = new Date("Mar 2, 2024 19:00:00").getTime();
 
 function Hero() {
     return (
