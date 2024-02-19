@@ -1,8 +1,8 @@
 {
   "name": "invitacion-samantha",
   "version": "0.1.0",
-  "homepage": "https://fall3n97.github.io/react-gh-pages",
-  "private": true,
+  "homepage": "https://fall3n97.github.io/samanthaburciaga-xv",
+  "private": false,
   "dependencies": {
     "@ant-design/icons": "^5.3.0",
     "@testing-library/jest-dom": "^5.17.0",
