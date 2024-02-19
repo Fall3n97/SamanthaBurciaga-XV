@@ -18,7 +18,7 @@ function Hero() {
           <div className='counter'>
               <Col
                 span={24}>
-                     <Countdown value={deadline} format="DD [Días] | HH [Horas] | mm [Minutos] | ss [Segundos]" style={{fontWeight: 400, fontSize: '0.9em'}}/>
+                     <Countdown value={deadline} format="DD [Días] | HH [Horas] | mm [Minutos] | ss [Segundos]" style={{fontWeight: 500, fontSize: '0.9em'}}/>
               </Col>
           </div>
           <div className='date'>

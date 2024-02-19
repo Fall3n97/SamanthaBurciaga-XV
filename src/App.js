@@ -1,8 +1,8 @@
-import Hero from './components/Hero';
-import Location from './components/Location';
-import Dress from './components/Dressing';
-import Confirmation from './components/Confirmation';
-import Footer from './components/Footer';
+import Hero from './components/Hero/index.js';
+import Location from './components/Location/index.js';
+import Dress from './components/Dressing/index.js';
+import Confirmation from './components/Confirmation/index.js';
+import Footer from './components/Footer/index.js';
 import { ConfigProvider } from 'antd';
 import './App.css';
 
@@ -12,7 +12,7 @@ function App() {
   theme={{
     token: {
       fontFamily: "Montserrat, sans-serif",
-      fontSize: '1.2em',
+      fontSize: '0.9em',
       colorText: '#e6b400',
       textShadow: '2px 2px 2px rgba(0,0,0, 0.2)'
     },
