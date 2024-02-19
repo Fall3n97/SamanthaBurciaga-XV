@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/samanthaburciaga-vx/static/css/main.205f4e01.css",
-    "main.js": "/samanthaburciaga-vx/static/js/main.a501f012.js",
-    "static/js/592.df6f8c64.chunk.js": "/samanthaburciaga-vx/static/js/592.df6f8c64.chunk.js",
-    "static/media/glitter.jpg": "/samanthaburciaga-vx/static/media/glitter.2221982f706ae591e925.jpg",
-    "static/media/hero.PNG": "/samanthaburciaga-vx/static/media/hero.04ec4f06daac95d5a65f.PNG",
-    "static/media/Samantha Logo-BLK.png": "/samanthaburciaga-vx/static/media/Samantha Logo-BLK.fef06985f97814b21043.png",
-    "index.html": "/samanthaburciaga-vx/index.html",
-    "main.205f4e01.css.map": "/samanthaburciaga-vx/static/css/main.205f4e01.css.map",
-    "main.a501f012.js.map": "/samanthaburciaga-vx/static/js/main.a501f012.js.map",
-    "592.df6f8c64.chunk.js.map": "/samanthaburciaga-vx/static/js/592.df6f8c64.chunk.js.map"
+    "main.css": "/invitacion-samantha/static/css/main.24f822aa.css",
+    "main.js": "/invitacion-samantha/static/js/main.8b78a275.js",
+    "static/js/592.df6f8c64.chunk.js": "/invitacion-samantha/static/js/592.df6f8c64.chunk.js",
+    "static/media/glitter.jpg": "/invitacion-samantha/static/media/glitter.2221982f706ae591e925.jpg",
+    "static/media/hero.PNG": "/invitacion-samantha/static/media/hero.04ec4f06daac95d5a65f.PNG",
+    "static/media/Samantha Logo-BLK.png": "/invitacion-samantha/static/media/Samantha Logo-BLK.fef06985f97814b21043.png",
+    "index.html": "/invitacion-samantha/index.html",
+    "main.24f822aa.css.map": "/invitacion-samantha/static/css/main.24f822aa.css.map",
+    "main.8b78a275.js.map": "/invitacion-samantha/static/js/main.8b78a275.js.map",
+    "592.df6f8c64.chunk.js.map": "/invitacion-samantha/static/js/592.df6f8c64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.205f4e01.css",
-    "static/js/main.a501f012.js"
+    "static/css/main.24f822aa.css",
+    "static/js/main.8b78a275.js"
   ]
 }
