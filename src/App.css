@@ -5,7 +5,10 @@ body{
   font-style: normal;
   color: #E5B80B;
   text-shadow: 2px 2px 2px rgba(0,0,0, 0.2);
-  background-color: #082c63;
+  background-image: url('../src/img/glitter.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 h1, h2, h3{
@@ -13,4 +16,15 @@ h1, h2, h3{
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+}
+
+.iconLocation{
+  padding: 0.5em;
+  margin: 1.5em 0;
+  color: #082c63;
+  background-image: url('../src/img/glitter.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 100%;
 }

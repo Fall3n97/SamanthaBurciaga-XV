@@ -6,8 +6,8 @@ const deadline = new Date("Mar 2, 2024 18:00:00").getTime();
 
 function Hero() {
     return (
-    <div className='heroMask'>
       <div className='Hero'>
+      <div className='heroMask'>
         <div className='textContainer'>
           <div className='textInvite'>
                 <h4>Mis XV's</h4>

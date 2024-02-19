@@ -1,7 +1,12 @@
 .locationContainer{
     width: 100%;
     height: fit-content;
-    background-color: #082c63;
+    background-image: url('../../img/glitter.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 0 0;
+    /* background-color: #082c63; */
 }
 
 /*  COLOR ROJO: #9F0101   
@@ -9,22 +14,29 @@
     COLOR AMARILLO: #E5B80B
 */
 
-
 .locationFlex{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 8vmin;
-    margin: 0 10vmin;
-    border: 1px solid beige;
+    margin: 0 2vmin;
+    border: 1px solid none;
+    background-color: #9F0101;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+}
+
+.title{
+    width: 100%;
+    background-color: #082c63;
+    padding: 5px;
     border-radius: 5px;
 }
 
 .title h2{
     font-size: 2em;
-    margin-bottom: 5px;
     text-shadow: none;
+    text-align: center;
+    color:antiquewhite;
 }
 
 .title p{
@@ -35,9 +47,12 @@
 }
 
 .locationDetails{
+    width: 100%;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
-    justify-content: center;
+    align-content: center;
+    overflow: hidden;
 }
 
 .locationInfo{
@@ -45,10 +60,12 @@
 }
 
 .locationInfo h2{
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: #E5B80B;
-    background-color: #9F0101;
-    border-radius: 8px;
+    background-color: none;
+    border-bottom: 1.5px solid #082c63;
+    border-top: 1.5px solid #082c63;
+    border-radius: 0;
     line-height: 1.5;
     margin-bottom: 0.5em;
 }
@@ -64,5 +81,18 @@
     font-weight: 300;
     color: beige;
     line-height: 1.5;
-    margin-bottom: 10px;
+}
+
+.locationMap{
+    margin-top: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.locationMap iframe{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
 }
